@@ -1,8 +1,8 @@
 <project>
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>xelan</groupId>
+	<groupId>com.github.teletha</groupId>
 	<artifactId>xelan</artifactId>
-	<version>1.0</version>
+	<version>0.1.0</version>
 	<packaging>jar</packaging>
 	<name>xelan</name>
 	<description/>

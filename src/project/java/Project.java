@@ -10,6 +10,6 @@
 public class Project extends bee.api.Project {
 
   {
-      product("xelan", "xelan", "1.0");
+      product("com.github.teletha", "xelan", "0.1.0");
   }
 }
