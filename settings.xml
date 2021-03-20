@@ -7,4 +7,5 @@
             <password>${env.GITHUB_TOKEN}</password>
         </server>
     </servers>
+    <do/>
 </settings>
