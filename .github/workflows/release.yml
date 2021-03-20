@@ -1,9 +1,12 @@
-on:
+# Trigger the workflow on milestone events
+on: 
   milestone:
     types: [closed]
-  workflow_dispatch:
-    inputs:
-      milestoneId:
-        description: 'Milestone ID'     
-        required: true
-        default: '1'
+name: Milestone Closure
+jobs:
+  create-release-notes:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Release notes generator
+      uses: Decathlon/release-notes-generator-action@v3.1.3
