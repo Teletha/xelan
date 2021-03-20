@@ -11,9 +11,12 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
+    strategy:
+      matrix:
+        java: [11, 16]
+    
+    name: Java ${{ matrix.java }} sample
     steps:
     - name: Checkout Resources
       uses: actions/checkout@v2
@@ -21,7 +24,7 @@ jobs:
     - name: Build Java Environment
       uses: actions/setup-java@v1
       with:
-        java-version: 16
+        java-version: ${{ matrix.java }}
         
     - name: Build with Maven
       run: mvn -B package --file pom.xml
