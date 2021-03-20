@@ -2,19 +2,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.teletha</groupId>
 	<artifactId>xelan</artifactId>
-	<version>0.1.5</version>
+	<version>0.3.2</version>
 	<packaging>jar</packaging>
 	<name>xelan</name>
-	<description>Github operation testing repository.</description>
+	<description/>
 	<dependencies/>
-	<distributionManagement>
-	   <repository>
-	     <id>github</id>
-	     <name>GitHub Teletha Apache Maven Packages</name>
-	     <url>https://maven.pkg.github.com/Teletha/maven-repository</url>
-	   </repository>
-	</distributionManagement>
-
 	<licenses>
 		<license>
 			<name>The MIT License</name>
@@ -63,6 +55,9 @@
 			<plugin>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M5</version>
+				<configuration>
+					<argLine>--enable-preview</argLine>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
