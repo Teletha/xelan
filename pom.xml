@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.teletha</groupId>
 	<artifactId>xelan</artifactId>
-	<version>0.1.4</version>
+	<version>0.1.5</version>
 	<packaging>jar</packaging>
 	<name>xelan</name>
 	<description>Github operation testing repository.</description>
