@@ -1,5 +1,13 @@
 # Changelog
 
+### [0.3.1](https://www.github.com/Teletha/test/compare/v0.3.0...v0.3.1) (2021-03-20)
+
+
+### Bug Fixes
+
+* valid type ([e55a883](https://www.github.com/Teletha/test/commit/e55a883250e86703205187b79e5474e6ca95eb54))
+* version up ([0745af0](https://www.github.com/Teletha/test/commit/0745af03db15b9b2e7cace1df2b35bc6cf9570ea))
+
 ## [0.3.0](https://www.github.com/Teletha/test/compare/v0.2.3...v0.3.0) (2021-03-20)
 
 
