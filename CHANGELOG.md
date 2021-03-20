@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.3.0](https://www.github.com/Teletha/test/compare/v0.2.3...v0.3.0) (2021-03-20)
+
+
+### Features
+
+* Remove --enalbe-preview. ([a029aab](https://www.github.com/Teletha/test/commit/a029aab4f8d3578b1a07241955a5e3968ee29c39))
+* version up ([6e7d5c8](https://www.github.com/Teletha/test/commit/6e7d5c8793269289e26c6830bf7952bdd37d4352))
+
+
+### Bug Fixes
+
+* readme ([da6cbdd](https://www.github.com/Teletha/test/commit/da6cbdd9124fa128d335bbf35cca8615d2e13859))
+* version up to 0.2.4 ([c7c8491](https://www.github.com/Teletha/test/commit/c7c849190e7274df5fd2c5b7db9b85da2767e790))
+
 ### [0.2.3](https://www.github.com/Teletha/test/compare/v0.2.2...v0.2.3) (2021-03-20)
 
 
