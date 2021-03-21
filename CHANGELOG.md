@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.4.1](https://www.github.com/Teletha/test/compare/v0.4.0...v0.4.1) (2021-03-21)
+
+
+### Bug Fixes
+
+* remove version.txt. ([160a7ab](https://www.github.com/Teletha/test/commit/160a7ab3bfa08b184ca8f9b2011d68995018001e))
+
 ## [0.4.0](https://www.github.com/Teletha/test/compare/v0.3.2...v0.4.0) (2021-03-21)
 
 
