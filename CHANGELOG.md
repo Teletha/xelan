@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://www.github.com/Teletha/test/compare/v0.3.2...v0.4.0) (2021-03-21)
+
+
+### Features
+
+* Use version.txt. ([c90a385](https://www.github.com/Teletha/test/commit/c90a38578fc23c22189a53c6691ca14737e369f2))
+
 ### [0.3.2](https://www.github.com/Teletha/test/compare/v0.3.1...v0.3.2) (2021-03-20)
 
 
