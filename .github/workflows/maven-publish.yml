@@ -27,6 +27,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         mkdir -p ~/.m2
-        echo "<settings><servers><server><id>github</id><username>teletha</username><password>\${env.GITHUB_TOKEN}</password></server></servers></settings>" > ~/.m2/settings.xml
+        echo "<settings><servers><server><id>github</id><username>teletha</username><password>\${secrets.REPOSITORY_ACCESS}</password></server></servers></settings>" > ~/.m2/settings.xml
         REPO="github::default::https://maven.pkg.github.com/teletha/maven-repository"
         mvn deploy -DaltDeploymentRepository="${REPO}" -DaltSnapshotDeploymentRepository="${REPO}"
