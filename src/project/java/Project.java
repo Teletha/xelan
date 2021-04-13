@@ -10,6 +10,8 @@
 public class Project extends bee.api.Project {
 
     {
-        product("com.github.teletha", "xelan", file("version.txt"));
+        product("com.github.teletha", "xelan", ref("version.txt"));
+
+        require("com.github.teletha", "antibug");
     }
 }
